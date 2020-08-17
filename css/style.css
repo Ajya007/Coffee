@@ -1,0 +1,790 @@
+* {
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+
+  }
+
+
+  .wrapper{
+  	 background-image: url('../img/test4.jpg');
+  	 
+
+	background-size: cover;
+	background-position: center;
+    width: 100%;
+    min-height: 100vh;
+    overflow: hidden;
+
+    
+    
+
+  }
+
+
+  /*navbar stying*/
+
+nav{
+    display: flex;
+    height: 12vh;
+    background-color: #efefef;
+    font-family: sans-serif;
+}
+nav img{
+	position: relative;
+	height: 12vh;
+	width: 200px;
+	z-index: 2;
+	background:transparent;
+}
+ .nav-links{
+        display:flex;
+        width: 50%;
+        height:100%;
+        justify-content: space-around;
+        align-items: center;
+        margin-left: auto;
+
+        }
+
+ .nav-links li{
+ 			
+            list-style:none;
+            
+          
+            }
+           
+
+ 
+ .nav-links a{
+                color:#333132;
+                text-decoration: none;
+                font-size: 18px;
+                white-space: nowrap;
+                
+            }
+
+.nav-links a:hover{
+	color:#9a7b4f;
+
+}
+
+
+
+/*showcase*/
+
+.showcase{
+
+text-align: center;
+
+margin-top: 100px;
+}
+
+.showcase h1{
+	font-family: serif;
+	font-size: 17vw;
+	color: #080808;
+
+	
+
+}
+.showcase h2{
+	font-family: sans-serif;
+	font-size: 3vw;
+	text-transform: uppercase;
+	color:#080808;
+
+}
+.showcase button{
+	font-family: sans-serif;
+	letter-spacing: .1rem;
+	font-size: 14px;
+	margin-top: 15px;
+	height:38px;
+	border:0;
+	padding:0 25px;
+	color: #ffffff;
+	background-color:#9a7b4f;
+	outline: none;
+	text-transform: uppercase;
+	transition: all 0.3s ease-in;
+}
+
+.showcase button:hover{
+	background-color: #da4891;
+}
+
+
+
+/*box-1 styling*/
+
+
+.box-1{
+	
+	background-color: #efefef;
+	
+    min-height: 100vh;
+    font-family: sans-serif;
+    overflow: hidden;
+
+    
+
+}
+.bg-1{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+background-image: url('../img/bg1.png');
+	background-position: center left;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100vh;
+
+}
+
+
+
+.bg-1 section h1{
+	font-size: 90px;
+	color: #9a7b4f;
+	margin-top: 70px;
+	margin-left: 70px;
+}
+.bg-1 section h1::after{
+	 content: "WE WELCOMES YOU!";
+	 white-space: nowrap;
+	 font-size: 30px;
+	 color: #333132;
+	 background: #efefef;
+	 position: relative;
+	 right: 30px;
+}
+.bg-1 section h2{
+	margin-top: 20px;
+	color: #9a7b4f;
+}
+.bg-1 section p{
+	line-height: 1.6;
+	margin-top: 20px;
+	margin-left: 70px;
+	color: #4b371c;
+
+}
+.bg-1 button{
+	margin-top: 20px;
+	margin-left: 70px;
+	letter-spacing: .1rem;
+	font-size: 14px;
+	height:38px;
+	border:0;
+	padding:0 25px;
+	color: #ffffff;
+	background-color:#9a7b4f;
+	outline: none;
+	text-transform: uppercase;
+	transition: all 0.3s ease-in;
+}
+
+.bg-1 button:hover{
+	background-color: #da4891;
+}
+
+
+/*box-2 styling*/
+
+
+.box-2{
+	font-family: sans-serif;
+	
+	background-color: #efefef;
+	
+    min-height: 100vh;
+
+}
+.bg-2{
+	display: grid;
+	grid-template-columns: 1.5fr 1fr;
+background-image: url('../img/bg2.png');
+	background-position: center right;
+    background-repeat: no-repeat;
+    background-size: contain;
+    min-height: 100vh;
+
+}
+.bg-2 section h1{
+	text-align: right;
+	font-size: 90px;
+	color: #9a7b4f;
+	margin-top: 70px;
+	margin-right: 50px;
+	
+}
+.bg-2 section h1::after{
+	 content: "THE BEST DAY STARTS HERE";
+	 white-space: nowrap;
+	 font-size: 30px;
+	 color: #333132;
+	 background: #efefef;
+	 position: relative;
+	 right: 30px;
+}
+.bg-2 section h2{
+	font-size: 2rem;
+	margin-left: 40px;
+	margin-top: 30px;
+	color: #9a7b4f;
+}
+.bg-2 section p{
+
+	
+	line-height: 1.6;
+	margin-top: 40px;
+	margin-left: 80px;
+	color: #4b371c;
+
+}
+
+/*Box-3 styling*/
+
+
+.box-3{
+	background-color: #efefef;
+	
+    min-height: 100vh;
+    font-family: sans-serif;
+     overflow: hidden;
+
+    
+
+}
+.bg-3{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+background-image: url('../img/bg3.png');
+	background-position: center left;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100vh;
+
+}
+
+
+.bg-3 section{
+	
+	
+
+}
+.bg-3 section h1{
+	font-size: 90px;
+	color: #9a7b4f;
+	margin-top: 70px;
+	margin-left: 70px;
+}
+.bg-3 section h1::after{
+	 content: "A SPECIAL MORNING MOMENT";
+	 white-space: nowrap;
+	 font-size: 30px;
+	 color: #333132;
+	 background: #efefef;
+	 position: relative;
+	 right: 30px;
+}
+.bg-3 section h2{
+	margin-top: 20px;
+	color: #9a7b4f;
+}
+.bg-3 section p{
+	line-height: 1.6;
+	margin-top: 20px;
+	margin-left: 70px;
+	color: #4b371c;
+
+}
+.bg-3 button{
+	margin-top: 20px;
+	margin-left: 70px;
+	letter-spacing: .1rem;
+	font-size: 14px;
+	height:38px;
+	border:0;
+	padding:0 25px;
+	color: #ffffff;
+	background-color:#9a7b4f;
+	outline: none;
+	text-transform: uppercase;
+	transition: all 0.3s ease-in;
+}
+
+.bg-3 button:hover{
+	background-color: #da4891;
+}
+
+/*box-4 styling*/
+
+.box-4{
+	background-color: #efefef;
+	min-height: 100vh;
+    font-family: sans-serif;
+    overflow: hidden;
+}
+
+.box-4 h1{
+	text-align: left;
+	font-size: 90px;
+	color: #9a7b4f;
+	margin-top: 10px;
+	margin-left: 50px;
+	
+}
+.box-4 h1::after{
+	 content: "OUR COFFEE MENU";
+	 white-space: nowrap;
+	 font-size: 30px;
+	 color: #333132;
+	 background: #efefef;
+	 position: relative;
+	 right: 30px;
+	  overflow: hidden;
+	}
+
+	.menu{
+		display: grid;
+		grid-template-columns: 4fr 1fr;
+	}
+	.menu h2{
+		font-size: 1.8rem;
+	margin-left: 40px;
+	margin-top: 10px;
+	color: #9a7b4f;
+	padding: 10px;
+	border-bottom: 1px dotted #4b371c;
+	}
+	.menu p{
+		margin-top: 10px;
+		margin-left: 80px;
+	color: #4b371c;
+
+	}
+	.part-2 h3{
+		color: #333132;
+		font-size: 1.8rem;
+	margin-left: 10px;
+	margin-top: 10px;
+	padding: 10px;
+
+
+	}
+
+	  .part-2 h4{
+	  	font-family: sans-serif;
+	  	background-color: #da4891;
+	  	padding: 10px;
+	  	height: 30px;
+	  	width: 90px;
+	  	text-align: center;
+
+	  	margin-top: 10px;
+	  	margin-left: 10px;
+	  }
+
+	  .menu-sec{
+	  	display: grid;
+	  	grid-template-columns: 1fr 1fr;
+	  }
+
+/*Box-5 styling*/
+.img-mover{
+	margin-top: 70px;
+}
+
+.carousel-container{
+	width: 70%;
+	margin:10px auto;
+}
+
+.carousel{
+
+	height: 500px;
+	position: relative;
+	overflow: hidden;
+
+}
+.slider {
+	height: 100%;
+	display: flex;
+	width: 400%;
+	transition: transform 300ms ease-in-out;
+}
+.slider section{
+	flex-basis: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+ #slide-1{
+	background-image: url('../img/slide1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+
+}
+
+#slide-2{
+	background-image: url('../img/slide2.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: green;
+
+}
+
+#slide-3{
+	background-image: url('../img/slide3.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: green;
+
+}
+
+#slide-4{
+	background-image: url('../img/slide4.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: green;
+
+}
+.controls .arrow-left,.controls .arrow-right{
+	position: absolute;
+	top: 50%;
+	cursor: pointer;
+	transform: translateY(-50%);
+
+    
+}
+
+.arrow-left{
+	left:10px;
+font-size: 50px;
+color: #9a7b4f;
+font-weight: 900;
+outline: none;
+}
+
+.arrow-right{
+	font-weight: 900;
+	right: 10px;
+	color: #9a7b4f; 
+	font-size: 50px;
+
+}
+.arrow-left:hover,.arrow-right:hover{
+	color: #da4891;
+
+}
+
+.controls ul{
+	position: absolute;
+	bottom: 20px;
+	left: 50%;
+	transform: translate(-50%);
+	list-style: none;
+	display: flex;
+	padding: 0;
+	margin: 0;
+
+}
+
+.controls ul li{
+	width: 14px;
+	height: 14px;
+	border: 2px solid #333;
+	border-radius: 50px;
+	margin:10px;
+	background: #9a7b4f;
+	cursor: pointer;
+
+
+}
+
+.controls ul li.selected{
+	background: #da4891;
+}
+
+.box-5{
+	 overflow: hidden;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	background-color: #efefef;
+	min-height: 100vh;
+    font-family: sans-serif;
+}
+.box-5 section h1{
+	font-size: 90px;
+	color: #9a7b4f;
+	margin-top: 70px;
+	margin-left: 70px;
+}
+.box-5 section h1::after{
+	 content: "WARM & FRIENDLY AMBIANCE";
+	 white-space: nowrap;
+	 font-size: 30px;
+	 color: #333132;
+	 background: #efefef;
+	 position: relative;
+	 right: 30px;
+}
+.box-5 section h2{
+	margin-top: 20px;
+	color: #9a7b4f;
+}
+.box-5 section p{
+	line-height: 1.6;
+	margin-top: 20px;
+	margin-left: 70px;
+	color: #4b371c;
+
+}
+.box-5 button{
+	margin-top: 20px;
+	margin-left: 70px;
+	letter-spacing: .1rem;
+	font-size: 14px;
+	height:38px;
+	border:0;
+	padding:0 25px;
+	color: #ffffff;
+	background-color:#9a7b4f;
+	outline: none;
+	text-transform: uppercase;
+	transition: all 0.3s ease-in;
+}
+
+.box-5 button:hover{
+	background-color: #da4891;
+}
+
+/*box-6 styling*/
+.box-6{
+	font-family: sans-serif;
+	
+	background-color: #efefef;
+	
+    min-height: 100vh;
+
+}
+.bg-6{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+background-image: url('../img/bg4.png');
+	background-position: center right;
+    background-repeat: no-repeat;
+    background-size: contain;
+    min-height: 100vh;
+
+}
+.bg-6 section h1{
+	text-align: right;
+	font-size: 90px;
+	color: #9a7b4f;
+	margin-top: 70px;
+	margin-right: 50px;
+	
+}
+.bg-6 section h1::after{
+	 content: "people love our coffees!";
+	 white-space: nowrap;
+	 font-size: 30px;
+	 color: #333132;
+	 background: #efefef;
+	 position: relative;
+	 right: 30px;
+}
+.bg-6 section h2{
+	font-size: 2rem;
+	margin-left: 40px;
+	margin-top: 30px;
+	color: #9a7b4f;
+}
+.bg-6 section p{
+
+	
+	line-height: 1.6;
+	margin-top: 40px;
+	margin-left: 80px;
+	color: #4b371c;
+
+}
+
+/*box-7 styling*/
+
+.ending{
+	font-family: sans-serif;
+	color: white;
+	background-image:linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5) ), url('../img/test3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    min-height: 70vh; 
+    overflow: hidden;
+
+}
+
+
+.box-7{
+	font-family: sans-serif;
+
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	
+	
+
+}
+
+.box-7 h1{
+	font-size: 27px;
+
+}
+.box-7 h2{
+	line-height: 2rem;
+	font-size: 18px;
+	
+
+}
+.last-part1 section{
+	
+	background: red;
+	overflow: hidden;
+
+}
+.last-part1{
+	margin-top: 20px;
+	
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+
+
+}
+
+.box-7 section{
+	margin-left: 50px;
+	margin-top: 80px;
+}
+.box-7 section img{
+	width: 200px;
+	height: 100px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+.box-7 section p{
+	margin-top: 15px;
+	line-height: 1.5rem;
+	font-size: 16px;
+}
+
+
+
+
+
+footer{
+	color: white;
+	background:black;
+	line-height: 10vh;
+}
+
+
+
+
+
+
+ @media screen and (max-width:768px){
+
+ 	.bg-1,
+ 	.bg-3,
+ 	.menu-sec,
+ 	.box-7,
+ 	.box-5{
+	display: block;
+}
+
+
+
+    .line{
+        width: 30px;
+        height: 3px;
+        background: black;
+        margin: 5px;
+
+    }
+
+   
+    .hamburger{
+        position: absolute;
+        cursor: pointer;
+        right: 5%;
+        top:50%;
+        transform: translate(-5%,-50%);
+        z-index: 2;
+    }
+
+   nav{ 
+    position: relative;
+}
+    .nav-links{
+        position: absolute;
+        background: #efefef;
+        height: 100vh;
+        width: 100%;
+        flex-direction: column;
+        clip-path: circle(50px at 90% -10%);
+        -webkit-clip-path: circle(50px at 90% -10%);
+        transition: all 1s ease-out;
+        pointer-events: none;
+        margin-top: 25px;
+    }
+        .nav-links.open{
+            clip-path: circle(1000px at 90% -10%);
+        -webkit-clip-path: circle(1000px at 90% -10%);
+        pointer-events: all;
+
+        }
+
+        .nav-links li{
+        	opacity: 0;
+        }
+        .nav-links li a{
+        	font-size: 25px;
+        }
+
+        .nav-links li:nth-child(1){
+        	transition: all 0.5s ease 0.4s;
+        }
+        .nav-links li:nth-child(2){
+        	transition: all 0.5s ease 0.4s;
+        }
+        .nav-links li:nth-child(3){
+        	transition: all 0.5s ease 0.4s;
+        }
+        .nav-links li:nth-child(4){
+        	transition: all 0.5s ease 0.4s;
+        }
+
+        li.fade{
+        	opacity: 1;
+        }
+}
+    
+
+
+
+
+
+
+
+
+
+
