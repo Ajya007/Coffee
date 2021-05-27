@@ -144,7 +144,7 @@ background-image: url('../img/bg1.png');
 	background-position: center left;
     background-repeat: no-repeat;
     background-size: contain;
-  
+    min-height: 100vh;
 
 }
 
@@ -267,7 +267,7 @@ background-image: url('../img/bg3.png');
 	background-position: center left;
     background-repeat: no-repeat;
     background-size: contain;
-
+    height: 100vh;
 
 }
 
