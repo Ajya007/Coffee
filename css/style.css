@@ -267,7 +267,7 @@ background-image: url('../img/bg3.png');
 	background-position: center left;
     background-repeat: no-repeat;
     background-size: contain;
-    height: 100vh;
+    min-height: 100vh;
 
 }
 
@@ -706,6 +706,11 @@ footer{
 	 body{
 		 overflow-x: hidden;
 	 }
+	 .bg-1,.bg-2,.bg-3,.bg-6{
+		min-height: auto;
+		padding:40px 0;
+	
+	}
 
 
 
