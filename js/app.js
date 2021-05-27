@@ -13,6 +13,7 @@ hamburger.addEventListener("click", () => {
 
 
 
+
 const slider=document.querySelector('.slider');
 const leftArrow=document.querySelector('.arrow-left');
 const rightArrow=document.querySelector('.arrow-right');

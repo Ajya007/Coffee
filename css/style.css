@@ -5,6 +5,15 @@ padding: 0;
 
   }
 
+  .whole-container{
+	max-width: 72em;
+	margin: auto;
+}
+
+.small-container{
+	max-width: 700px;
+	margin: auto ;
+}
 
   .wrapper{
   	 background-image: url('../img/test4.jpg');
@@ -211,7 +220,7 @@ background-image: url('../img/bg2.png');
 
 }
 .bg-2 section h1{
-	text-align: right;
+	text-align: left;
 	font-size: 90px;
 	color: #9a7b4f;
 	margin-top: 70px;
@@ -587,7 +596,7 @@ background-image: url('../img/bg4.png');
 
 }
 .bg-6 section h1{
-	text-align: right;
+	text-align: left;
 	font-size: 90px;
 	color: #9a7b4f;
 	margin-top: 70px;
