@@ -131,8 +131,6 @@ margin-top: 100px;
 .box-1{
 	
 	background-color: #efefef;
-	
-    min-height: 100vh;
     font-family: sans-serif;
     overflow: hidden;
 
@@ -146,14 +144,14 @@ background-image: url('../img/bg1.png');
 	background-position: center left;
     background-repeat: no-repeat;
     background-size: contain;
-    height: 100vh;
+  
 
 }
 
 
 
 .bg-1 section h1{
-	font-size: 90px;
+	font-size: 5rem;
 	color: #9a7b4f;
 	margin-top: 70px;
 	margin-left: 70px;
@@ -161,14 +159,14 @@ background-image: url('../img/bg1.png');
 .bg-1 section h1::after{
 	 content: "WE WELCOMES YOU!";
 	 white-space: nowrap;
-	 font-size: 30px;
+	 font-size: 2rem;
 	 color: #333132;
 	 background: #efefef;
 	 position: relative;
 	 right: 30px;
 }
 .bg-1 section h2{
-	margin-top: 20px;
+	margin-top: 1.2rem;
 	color: #9a7b4f;
 }
 .bg-1 section p{
@@ -182,7 +180,7 @@ background-image: url('../img/bg1.png');
 	margin-top: 20px;
 	margin-left: 70px;
 	letter-spacing: .1rem;
-	font-size: 14px;
+	font-size: 1rem;
 	height:38px;
 	border:0;
 	padding:0 25px;
@@ -206,7 +204,6 @@ background-image: url('../img/bg1.png');
 	
 	background-color: #efefef;
 	
-    min-height: 100vh;
 
 }
 .bg-2{
@@ -257,8 +254,6 @@ background-image: url('../img/bg2.png');
 
 .box-3{
 	background-color: #efefef;
-	
-    min-height: 100vh;
     font-family: sans-serif;
      overflow: hidden;
 
@@ -272,7 +267,7 @@ background-image: url('../img/bg3.png');
 	background-position: center left;
     background-repeat: no-repeat;
     background-size: contain;
-    height: 100vh;
+
 
 }
 
@@ -331,7 +326,6 @@ background-image: url('../img/bg3.png');
 
 .box-4{
 	background-color: #efefef;
-	min-height: 100vh;
     font-family: sans-serif;
     overflow: hidden;
 }
@@ -528,7 +522,6 @@ outline: none;
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	background-color: #efefef;
-	min-height: 100vh;
     font-family: sans-serif;
 }
 .box-5 section h1{
@@ -582,7 +575,6 @@ outline: none;
 	
 	background-color: #efefef;
 	
-    min-height: 100vh;
 
 }
 .bg-6{
@@ -655,7 +647,7 @@ background-image: url('../img/bg4.png');
 }
 
 .box-7 h1{
-	font-size: 27px;
+	font-size: 2.5rem;
 
 }
 .box-7 h2{
@@ -711,6 +703,59 @@ footer{
 
 
  @media screen and (max-width:768px){
+	 body{
+		 overflow-x: hidden;
+	 }
+
+
+
+	 .bg-1 section h1,
+	 .bg-2 section h1,
+	 .bg-3 section h1,
+	 .box-4  h1,
+	 .box-5 section h1,
+	 .bg-6 section h1{
+		font-size: 3rem;
+		margin-left:0px ;
+		white-space: wrap;
+	}
+	.bg-1 section h1::after,
+	.bg-2 section h1::after,
+	.bg-3 section h1::after,
+	.box-4 h1::after,
+	.box-5 section h1::after,
+	.bg-6 section h1::after{
+		
+		 font-size: 1.5rem;
+		 white-space: wrap;
+		 position: relative;
+		 right: 0px;
+	}
+	.bg-1 section h2,
+	.bg-2 section h2,
+	.bg-3 section h2,
+	.bg-4 section h2,
+	.box-5 section h2,
+	.bg-6 section h2{
+		margin-left:10px;
+	}
+
+	.bg-1 section p,
+	.bg-2 section p,
+	.bg-3 section p,
+	.bg-4 section p,
+	.box-5 section p,
+	.bg-6 section p{
+		margin-left: 10px;
+	
+	
+	}
+	.bg-1 button,
+	.bg-3 button,
+	.box-5 button
+	{
+		margin-left: 10px;
+	}
 
  	.bg-1,
  	.bg-3,
